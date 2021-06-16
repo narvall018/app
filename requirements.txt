@@ -4,3 +4,4 @@ mordred
 streamlit
 rdkit-pypi
 joblib
+sklearn
