@@ -3,6 +3,5 @@ pandas
 mordred
 streamlit
 pybel
-molmod
 itertools
 collections
