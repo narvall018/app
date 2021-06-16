@@ -3,3 +3,4 @@ pandas
 mordred
 streamlit
 rdkit-pypi
+joblib
