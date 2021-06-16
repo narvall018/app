@@ -2,7 +2,6 @@ numpy
 pandas
 mordred
 streamlit
-joblib
 os
 pybel
 molmod
