@@ -1,14 +1,7 @@
-streamlit==0.80.0
--illow @ file:///C:/ci/pillow_1609842634117/work
-Pillow @ file:///C:/ci/pillow_1617386325740/work
 numpy==1.19.5
-numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
-pandas @ file:///C:/ci/pandas_1602088210462/work
 pandas-flavor==0.2.0
 pandas-profiling==2.11.0
 pandasgui==0.2.7
 mordred==1.2.0
 json5==0.9.5
-jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
-joblib @ file:///tmp/build/80754af9/joblib_1613502643832/work
 molmod==1.4.4
