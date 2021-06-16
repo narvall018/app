@@ -2,7 +2,6 @@ numpy
 pandas
 mordred
 streamlit
-PIL
 json
 joblib
 os
