@@ -4,4 +4,4 @@ pandas-profiling==2.11.0
 pandasgui==0.2.7
 mordred==1.2.0
 json5==0.9.5
-molmod==1.4.4
+
