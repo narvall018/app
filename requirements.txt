@@ -2,5 +2,3 @@ numpy
 pandas
 mordred
 streamlit
-itertools
-collections
