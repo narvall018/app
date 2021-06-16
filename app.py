@@ -1,18 +1,18 @@
-from logging import raiseExceptions
+#from logging import raiseExceptions
 import streamlit as st
 from PIL import Image
 import numpy as np
 import pandas as pd
 from mordred import Calculator, descriptors
-#from rdkit.Chem import PandasTools
-import json
+from rdkit.Chem import PandasTools
+#import json
 import joblib
 
 import os
-import pybel
-from molmod import *
-from itertools import cycle
-from collections import namedtuple
+#import pybel
+#from molmod import *
+#from itertools import cycle
+#from collections import namedtuple
 
 
 ###################
