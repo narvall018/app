@@ -6,4 +6,3 @@ rdkit-pypi
 joblib
 sklearn
 pycaret
-descriptastorus
