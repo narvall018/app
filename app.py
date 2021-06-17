@@ -1,18 +1,18 @@
-from logging import raiseExceptions
+#from logging import raiseExceptions
 import streamlit as st
 from PIL import Image
 import numpy as np
 import pandas as pd
 from mordred import Calculator, descriptors
-#from rdkit.Chem import PandasTools
-import json
+from rdkit.Chem import PandasTools
+#import json
 import joblib
 
 import os
-import pybel
-from molmod import *
-from itertools import cycle
-from collections import namedtuple
+#import pybel
+#from molmod import *
+#from itertools import cycle
+#from collections import namedtuple
 
 
 ###################
@@ -121,10 +121,10 @@ The data to create the models were collected through different sources presented
     elif choice == "Database information":
         st.header('Database information') 
         st.subheader("Number of occurrences for each metal")
-        image = Image.open('img/metal_occurences.png')
+        image = Image.open('img/metal_occurences.PNG')
         st.image(image, use_column_width=True)
         st.subheader("Number of occurrences for each type of ligand")
-        image = Image.open('img/ligandtype_occurences.png')
+        image = Image.open('img/ligandtype_occurences.PNG')
         st.image(image, use_column_width=True)
         st.subheader("Histogram and density function of the predictor variable (Boiling temperature)")
         image = Image.open('img/densityV2.png')
@@ -138,7 +138,7 @@ The data to create the models were collected through different sources presented
         st.header('Model performance information') 
         st.subheader('Model performance')
         st.write('After comparing different models with statistical metrics, the model with the best performance after optimization is the XGBoost') 
-        image = Image.open('img/PerformanceApresTuningEnSurlignage.png')
+        image = Image.open('img/PerformanceApresTuningEnSurlignage.PNG')
         st.image(image, use_column_width=True)
         st.subheader("Model learning curve")
         image = Image.open('img/LearningCurveV2.png')
